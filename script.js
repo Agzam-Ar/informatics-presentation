@@ -11,7 +11,8 @@ const SLIDES = [
 	{file: "memory", 		name: "Внутренние устройства хранения и записи данных"},
 	{file: "audio_card", 	name: "Звуковая карта"},
 	{file: "сooler", 		name: "Кулеры, радиаторы, вентиляторы и другие типы систем охлаждения"},
-	{file: "links", 		name: "Информация"}
+	{file: "links", 		name: "Информация"},
+	{file: "test", 			name: "Тест"}
 ];
 
 let s;
@@ -38,8 +39,8 @@ window.onload = function() {
 
 		timer++;
 
-		var maxX = document.body.offsetWidth / eEm.offsetWidth - 6;
-		var maxY = document.body.offsetHeight / eEm.offsetHeight - 6;
+		var maxX = document.documentElement.offsetWidth / eEm.offsetWidth - 6;
+		var maxY = document.documentElement.offsetHeight / eEm.offsetHeight - 6;
 
 		if(flyAction == 0 && timer < 10) {
 			flyAngle += 15*flyVAngle*Math.random();
