@@ -125,3 +125,30 @@ body {
   	}
 }
 
+.links {
+
+}
+
+
+a {
+	font-size: 300%;
+	font-family: monospace;
+	user-select: none;
+	display: block;
+	padding: .5em 1em;
+	text-decoration: none;
+	background: #2196f3;
+	color: #FFF;
+	transition: .2s ease-in-out;
+	text-align: center;
+}
+
+a:hover {
+    box-shadow: 0 0 0 .2em #003f70;
+}
+
+a:active {
+	background: #FFF;
+	color: #2196f3;
+    box-shadow: 0 0 0 .2em #2196f3;
+}

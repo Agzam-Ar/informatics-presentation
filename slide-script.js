@@ -10,4 +10,3 @@ window.onload = function() {
 function keyDown(key) {
     window.parent.postMessage({"payload": key}, "*");
 }
-
